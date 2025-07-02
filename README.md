@@ -27,32 +27,27 @@ LOGIQ is a Python tool that analyzes raw Nmap and Nikto scan logs to automatical
 
  1. Clone the repository
 ```
-bash
 git clone https://github.com/Mrunalini388/Security-Testing-Optimization.git
 cd Security-Testing-Optimization
 ```
 2. Create and activate a virtual environment
     macOS/Linux:
 ```
-bash
 python -m venv venv
 source venv/bin/activate
 ```
 3. Install dependencies
 ```
-bash
 pip install -r requirements.txt
 ```
 4. Add your scan logs
 Place the following files in the project root:
 ```
-bash
 example_nmap.txt
 example_nikto.txt
 ```
 5. Run anomaly detection
 ```
-bash
 python ai_log_analyzer.py
 ```
 
