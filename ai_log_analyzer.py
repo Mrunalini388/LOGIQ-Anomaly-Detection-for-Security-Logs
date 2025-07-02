@@ -8,7 +8,7 @@ def print_logo():
     logo = pyfiglet.figlet_format("LOGIQ")
     print(logo)
     print("🔍 Smart AI intelligence for detecting anomalies in your security logs.")
-    print("🔐 Developed by Mrunalini\n")
+    print("🔐 Developed by Mrunalini Rachakonda \n")
 
 # Function to load and preprocess scan logs
 def load_logs(file_path):
